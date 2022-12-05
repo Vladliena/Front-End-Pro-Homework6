@@ -1,5 +1,5 @@
 let coordinates;
-let city = prompt('please add the city', 'Tel Aviv, Odesa, Paris, Venice, Istanbul').trim().toUpperCase();
+const city = prompt('please add the city', 'Tel Aviv, Odesa, Paris, Venice, Istanbul').trim().toUpperCase();
 
 switch (city) {
     case 'TEL AVIV':
